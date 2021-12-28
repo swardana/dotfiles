@@ -1,1 +1,15 @@
 Sukma's dotfiles
+
+Vim Setup
+
+Requires NeoVim (>= 0.6)
+
+- vim-plug - A minimalist Vim plugin manager: https://github.com/junegunn/vim-plug
+
+Shell Setup (macOS & Linux)
+
+- Fish Shell: https://fishshell.com/
+- Fisher - Plugin Manager: https://github.com/jorgebucaran/fisher
+- Nerd Fonts - Powerline-patched fonts. I use Ioveska Term: https://github.com/ryanoasis/nerd-fonts
+- Exa - `ls` replacement: https://the.exa.website/
+- z for fish - directory jumping: https://github.com/jethrokuan/z
