@@ -1,4 +1,4 @@
-function tree --description "List Files and Directories in Tree structure"
+function ftree --description "List Files and Directories in Tree structure"
   if type --query exa
     exa --tree --level=2 $argv
   else if type --query tree
