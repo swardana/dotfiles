@@ -10,8 +10,11 @@ if status --is-interactive
     
     # Git alias
     if type --query git
+        abbr --add --global gadd 'git add .'
         abbr --add --global gcam 'git commit --amend'
         abbr --add --global gcim 'git commit -m'
+        abbr --add --global gco 'git checkout'
+        abbr --add --global gpm 'git push origin master'
         abbr --add --global gl 'git log'
         abbr --add --global gs 'git status'
     end
