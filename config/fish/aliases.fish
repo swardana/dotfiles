@@ -1,6 +1,8 @@
 if status --is-interactive
     abbr --add --global cl 'clear'
     abbr --add --global cls 'clear; ls'
+    abbr --add --global l 'ls'
+    abbr --add --global ll 'ls'
 
     # Maven alias
     if type --query mvn
